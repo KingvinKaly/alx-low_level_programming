@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 /**
- * main - program that prints the alphabet in lowercase and upper case
- *
- * Return: Always 0.
+ * main - Prints the alphabet without q and e.
+ * Return: Always 0 (Success)
  */
 
 int main(void)
