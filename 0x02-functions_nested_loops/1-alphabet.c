@@ -1,22 +1,14 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * This program is to print alphabet
- * Return 0
+ *print_alphabet - this is the function of the task
+ *Return: 0
  */
-
-int main(void)
+void print_alphabet(void)
 {
-	char c;
-	int i = 0;
-
-	while (i <= 9)
-	{
-		for (c='a'; c <= 'z'; c++)
-		{
-			putchar('c');
-		}
-		putchar('\n');
-		i++;
-	}
-	return 0;
+char c;
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
+}
+_putchar('\n');
 }
